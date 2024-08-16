@@ -17,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       {/* <Script src="https://cdn.webrtc-experiment.com/RecordRTC.js" strategy="beforeInteractive" />
       <Script src="https://webrtc.github.io/adapter/adapter-latest.js" strategy="beforeInteractive" /> */}
       <body className={inter.className}>{children}</body>
